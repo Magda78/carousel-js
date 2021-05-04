@@ -1,0 +1,40 @@
+.page__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 400px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.controls {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.controls > button {
+    padding: 10px;
+    background-color: darkcyan;
+    border: none;
+    color: lightcyan;
+    cursor: pointer;
+}
+
+.controls > button:hover {
+    background-color: lightcyan;
+    color: darkcyan;
+}
+
+.btn-1 {
+    flex: 0.4
+}
+
+.btn-2 {
+    flex: 0.4
+}
